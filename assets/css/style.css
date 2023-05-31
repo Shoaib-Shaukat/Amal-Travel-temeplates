@@ -6,7 +6,7 @@
 } */
 @font-face {
 	font-family: "reeyMyFont";
-	src: url("/assets/fonts/Reey-Regular.otf");
+	src: url("../fonts/Reey-Regular.otf");
 }
 
 @import "compass/css3";
@@ -42,13 +42,13 @@ body {
 }
 
 .navbar a:hover {
-	color: #e8604c !important;
+	color: #106eea !important;
 }
 
 .navbar_button {
 	line-height: 20px;
 	letter-spacing: 1px;
-	background-color: #e8604c;
+	background-color: #106eea;
 	border-radius: 0;
 	font-size: 12px;
 	font-weight: 500;
@@ -181,34 +181,29 @@ h6 {
   # Top Bar
   --------------------------------------------------------------*/
 #topbar {
-	background: #313041;
+	background: #0e7cb1;
 	height: 40px;
 	font-size: 14px;
 	transition: all 0.5s;
 	padding: 0;
 }
 
-#topbar .contact-info i {
-	font-style: normal;
-	color: #fff;
-}
-
 #topbar .contact-info i a,
 #topbar .contact-info i span {
 	padding-left: 10px;
-	color: #9d9d9d;
+	color: #fff;
 	font-family: "DM Sans", sans-serif;
 	font-size: 14px;
 	cursor: pointer;
 }
 
 #topbar .contact-info i {
-	color: #e8604c;
+	color: #fff;
 }
 
 #topbar .contact-info i a,
 #topbar .contact-info i span:hover {
-	color: #e8604c;
+	color: #fff;
 }
 
 #topbar .contact-info i a {
@@ -231,7 +226,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-	color: #e8604c;
+	color: #106eea;
 }
 
 /*--------------------------------------------------------------
@@ -243,7 +238,8 @@ h6 {
 	z-index: 997;
 	height: 90px;
 	top: 0px;
-	position: fixed;
+	/* position: fixed; */
+	position: relative;
 	width: 100%;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -255,7 +251,7 @@ h6 {
 #header .logo {
 	font-size: 30px;
 	margin: 0;
-	padding: 0;
+	padding-top: 14px;
 	line-height: 1;
 	font-weight: 600;
 	letter-spacing: 0.8px;
@@ -271,8 +267,8 @@ h6 {
 }
 
 #header .logo img {
-    height: 60px;
-    width: 150px;
+	height: auto;
+	width: 220px;
 }
 
 .scrolled-offset {
@@ -334,7 +330,7 @@ h6 {
 	height: 2px;
 	bottom: -6px;
 	left: 0;
-	background-color: #e8604c;
+	background-color: #106eea;
 	visibility: hidden;
 	width: 0px;
 	transition: all 0.3s ease-in-out 0s;
@@ -560,7 +556,7 @@ h6 {
 	background: url("/assets/images/images\ \(1\).jpg") top left;
 	background-size: cover; */
 
-	background: url("/assets/images//image_background.avif");
+	background: url("../images/background_image.jpg.avif");
 	background-size: cover;
 	background-repeat: no-repeat;
 	min-height: 700px;
@@ -1911,7 +1907,7 @@ section {
 }
 
 .btn-circle {
-	background: #faf5ee;
+	background: #ddddff;
 	width: 40px;
 	height: 40px;
 	text-align: center;
@@ -1928,7 +1924,7 @@ section {
 	position: relative;
 	display: inline-block;
 	font-family: "reeyMyFont" !important;
-	color: #e8604c;
+	color: #071850;
 	font-size: 20px;
 	text-indent: 15px;
 	letter-spacing: 0;
@@ -1949,7 +1945,7 @@ section {
 
 
 #hero .more-info i {
-	color: #e8604c;
+	color: #106eea;
 	font-size: 30px;
 	width: 60px;
 	height: 60px;
@@ -1974,7 +1970,7 @@ section {
 
 #hero .more-info h4 {
 	text-align: left;
-	color: #e8604c;
+	color: #106eea;
 	line-height: 22px;
 	font-size: 16px;
 	font-weight: 700;
@@ -2075,7 +2071,7 @@ section {
 	height: 100%;
 	float: right;
 	color: #fff;
-	background-color: #e8604c;
+	background-color: #106eea;
 	padding: 24px 30px;
 	display: inline-block;
 	font-weight: 500;
@@ -2122,8 +2118,7 @@ section {
 
 .form-search-wrap .btn {
 	float: right;
-	border-radius: 0 8px 8px 0;
-	background-color: #e8604c;
+	background-color: #0e7cb1;
 	min-width: 100px;
 }
 
@@ -2291,7 +2286,7 @@ section {
 	width: 80px;
 	height: 30px;
 	z-index: 11;
-	background: #e8604c;
+	background: #106eea;
 	color: #fff;
 	font-size: 11px;
 }
@@ -2369,13 +2364,13 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 #places-section .text {
 	font-size: 13px;
 	text-transform: uppercase;
-	color: #e8604c;
+	color: #071850;
 	position: relative;
 	-webkit-transition: all .35s;
 	transition: all .35s;
@@ -2404,7 +2399,7 @@ section {
 	bottom: 0;
 	top: 0;
 	z-index: 1;
-	background: #e8604c;
+	background: #106eea;
 }
 
 
@@ -2496,7 +2491,6 @@ section {
 }
 
 .form-search-wrap .btn {
-	border-radius: 30px;
 	padding: 10px 30px;
 }
 
@@ -2563,7 +2557,7 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 
@@ -2749,7 +2743,7 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #106eea;
 }
 
 #featured-section .title {
@@ -2766,7 +2760,7 @@ section {
 }
 
 #featured-section .text2 {
-	color: #e8604c;
+	color: #106eea;
 	font-size: 16px;
 	font-family: "DM Sans", sans-serif;
 }
@@ -2779,7 +2773,7 @@ section {
 #featured-section .card_images:nth-child(1) {
 	border: none;
 	border-radius: 10px;
-	background: url("/assets/images/image_background.avif") center;
+	background: url("../images/image_background.avif") center;
 }
 
 #featured-section .card_content {
@@ -2814,7 +2808,7 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 #featured_section-most_popular .title {
@@ -2831,7 +2825,7 @@ section {
 }
 
 #featured_section-most_popular .text2 {
-	color: #e8604c;
+	color: #071850;
 	font-size: 16px;
 	font-family: "DM Sans", sans-serif;
 }
@@ -2883,7 +2877,7 @@ section {
 #featured_section-most_popular a {
 	position: relative;
 	padding-right: 15px;
-	color: #e8604c;
+	color: #071850;
 	font-size: 14px;
 	padding-top: 15px;
 }
@@ -2946,7 +2940,7 @@ section {
 #featured_section-most_popular .photos {
 	width: 100px;
 	height: 26px;
-	background-color: #14b0c3;
+	background-color: #0e7cb1;
 	position: relative;
 	top: -180px;
 	margin-left: 14px;
@@ -3076,7 +3070,7 @@ section {
 	transition: all 0.5s ease 0s;
 	z-index: 997;
 	padding: 0px;
-	background-image: url("/assets/images/background_image.jpg.avif");
+	background-image: url("../images/background_image.jpg.avif");
 	height: 700px;
 	background-size: cover;
 }
@@ -3097,7 +3091,7 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 #featured_section-img .title {
@@ -3159,7 +3153,7 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #106eea;
 }
 
 #featured-section-four-cat .title {
@@ -3197,7 +3191,7 @@ section {
 }
 
 #featured-section-four-cat .text2 {
-	color: #e8604c;
+	color: #106eea;
 	font-size: 16px;
 	font-family: "DM Sans", sans-serif;
 }
@@ -3218,7 +3212,7 @@ section {
 
 #featured-section-four-cat .card_content i {
 	font-size: 60px;
-	color: #e8604c;
+	color: #071850;
 	margin-bottom: 20px;
 }
 
@@ -3273,7 +3267,7 @@ section {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 #featured-section-two-cards .title {
@@ -3357,15 +3351,15 @@ section {
 }
 
 #featured-section-two-cards .card-content:hover .fa {
-	color: #e8604c;
+	color: #106eea;
 }
 
 #featured-section-two-cards .card_images:hover .person_photo {
-	border: 11px solid #e8604c;
+	border: 11px solid #106eea;
 }
 
 #first_footer {
-	background: #e8604c;
+	background: #f5f7fa;
 	transition: all 0.5s;
 	height: 300px;
 	position: relative;
@@ -3373,13 +3367,12 @@ section {
 }
 
 #first_footer .heading {
-	color: #fff;
 	margin-bottom: 0;
 	font-size: 30px;
 	position: relative;
 	display: inline-block;
 	font-family: "reeyMyFont" !important;
-	color: #fff;
+	color: #2c2b26;
 	text-indent: 15px;
 	letter-spacing: 0;
 	margin-left: 100px;
@@ -3387,13 +3380,12 @@ section {
 }
 
 #first_footer .heading_two {
-	color: #fff;
 	font-size: 46px;
 	margin-bottom: 0;
 	position: relative;
 	display: inline-block;
 	font-family: "DM Sans", sans-serif;
-	color: #fff;
+	color: #2c2b26;
 	text-indent: 15px;
 	letter-spacing: 0;
 	font-weight: 700;
@@ -3422,7 +3414,7 @@ section {
 	box-shadow: none;
 	text-decoration: none;
 	padding: 25px 40px;
-	background: #313041;
+	background: #0e7cb1;
 	color: #fff;
 	margin-top: 55px;
 	margin-left: 50px;
@@ -3434,7 +3426,7 @@ footer {
 }
 
 .footer-10 {
-	background: #313041;
+	background: #106eea;
 	padding: 0 0 4em 0;
 	padding: 120px 0 120px;
 	position: relative;
@@ -3442,15 +3434,15 @@ footer {
 }
 
 .footer-10 .logo {
-    width: 200px;
-    height: 60px;
-    margin-bottom: 14px;
-    margin-left: 10px;
-    padding: 0px;
+	width: 80%;
+	height: auto;
+	margin-bottom: 14px;
+	margin-left: 10px;
+	padding: 0px;
 }
 
 .footer-10 ul li a {
-	color: #A9A8B6 !important;
+	color: #fff !important;
 	font-size: 16px;
 	font-family: "DM Sans", sans-serif;
 	margin-bottom: 15px;
@@ -3469,7 +3461,7 @@ footer {
 }
 
 .footer-10 .footer-heading {
-	font-size: 18px;
+	font-size: 25px;
 	color: #fff;
 	margin-bottom: 30px;
 }
@@ -3530,9 +3522,8 @@ footer {
 	color: white !important;
 	border: none !important;
 	outline: none !important;
-	color: rgba(0, 0, 0, 0.3) !important;
+	color: #000 !important;
 	padding: 0 15px;
-	border-radius: 8px;
 	text-align: center;
 	width: 100%;
 	border: none;
@@ -3540,7 +3531,7 @@ footer {
 	-webkit-transition: all .35s;
 	transition: all .35s;
 	font-size: 16px;
-	background: rgba(0, 0, 0, .2);
+	background: #767676;
 }
 
 .footer-10 .subscribe-form .form-group input::placeholder {
@@ -3594,19 +3585,18 @@ footer {
 	display: inline-block;
 	font-size: 15px;
 	font-weight: 500;
-	color: #a9a8b6;
+	color: #fff;
 	margin-top: 20px;
 }
 
 .footer-10 .subscribe-btn {
 	margin-top: 10px;
 	font-size: 12px;
-	background: #e8604c;
+	background: #2c2b26;
 	color: #fff;
 	font-weight: 700;
 	padding: 18px 30px;
 	line-height: 15px;
-	border-radius: 8px;
 	position: relative;
 	z-index: 9;
 	display: inline-block;
@@ -3633,7 +3623,7 @@ footer {
 	position: relative;
 	display: inline-block;
 	font-family: "reeyMyFont" !important;
-	color: #e8604c;
+	color: #106eea;
 	font-size: 20px;
 	text-indent: 15px;
 	letter-spacing: 0;
@@ -3664,7 +3654,7 @@ footer {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 #upcoming_events_section .title {
@@ -3748,11 +3738,11 @@ footer {
 }
 
 #upcoming_events_section .card-content:hover .fa {
-	color: #e8604c;
+	color: #106eea;
 }
 
 #upcoming_events_section .card_images:hover .person_photo {
-	border: 11px solid #e8604c;
+	border: 11px solid #106eea;
 }
 
 
@@ -3796,7 +3786,7 @@ footer {
 	color: #fff !important;
 	box-shadow: none;
 	text-decoration: none;
-	background: #313041;
+	background: #0e7cb1;
 
 	font-size: 12px;
 	font-weight: 700;
@@ -3840,7 +3830,7 @@ footer {
 }
 
 #upcoming_events_section .upcoming_event_card .title:hover {
-	color: #e8604c;
+	color: #106eea;
 }
 
 #upcoming_events_section .upcoming_event_card p {
@@ -3862,7 +3852,7 @@ footer {
 	width: 50px;
 	height: 50px;
 	z-index: 11;
-	background: #e8604c;
+	background: #071850;
 	color: #fff;
 	font-size: 11px;
 	position: relative;
@@ -3895,7 +3885,7 @@ footer {
 	font-weight: 500;
 	font-family: "DM Sans", sans-serif;
 	text-indent: 0;
-	color: #e8604c;
+	color: #071850;
 }
 
 #featured_section .title {
@@ -3912,7 +3902,7 @@ footer {
 }
 
 #featured_section .text2 {
-	color: #e8604c;
+	color: #071850;
 	font-size: 16px;
 	font-family: "DM Sans", sans-serif;
 }
@@ -3964,7 +3954,7 @@ footer {
 #featured_section a {
 	position: relative;
 	padding-right: 15px;
-	color: #e8604c;
+	color: #106eea;
 	font-size: 14px;
 	padding-top: 15px;
 }
@@ -4050,7 +4040,7 @@ footer {
 #featured_section .photos {
 	width: 100px;
 	height: 26px;
-	background-color: #14b0c3;
+	background-color: #0e7cb1;
 	position: relative;
 	top: -272px;
 	margin-left: 14px;

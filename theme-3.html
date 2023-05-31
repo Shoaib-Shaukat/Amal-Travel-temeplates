@@ -20,7 +20,7 @@
         rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="/assets/css/theme3style.css" rel="stylesheet">
+    <link href="./assets/css/theme3style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,10 +33,10 @@
 
 
     <!-- ======= Top Bar ======= -->
-    <!-- <section id="topbar" class="d-flex align-items-center">
+    <section id="topbar" class="d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-between">
             <div class="contact-info d-flex align-items-center">
-                <i class="fa fa-phone d-flex align-items-center"><span>666 888
+                <i class="fa fa-phone d-flex align-items-center"><span class="contact_info">666 888
                         0000</span></i>
                 <i class="fa fa-envelope d-flex align-items-center ms-4"><span href="#">contact@example.com</span></i>
             </div>
@@ -45,30 +45,28 @@
                 <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
                 <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#" class="pinterest" style="padding-right: 20px;"><i class="fa-brands fa-pinterest"></i></a>
-                <button type="button" class="btn navbar_button">
-                    BECOME A LOCAL GUIDE
-                </button>
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
-            <a class="logo" href="/index.html"><img class="outer-logo"
-                    src="/assets/images/MicrosoftTeams-image (4).png" /></a>
+            <a class="logo" href="#"><img class="outer-logo" src="./assets/images/logo.png" /></a>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li class="dropdown"><a href="#"><span>Home</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="navbar_a1">Home</span> <i class="bi bi-chevron-down"
+                                id="navbar_i1"></i></a>
                         <ul>
-                            <li><a href="/index.html">Home 1</a></li>
-                            <li><a href="/theme-2.html">Home 2</a></li>
+                            <li><a href="./index.html">Home 1</a></li>
+                            <li><a href="./theme-2.html">Home 2</a></li>
                             <li><a href="#">Home 3</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Tours Page</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="navbar_a2">Tours Page</span> <i
+                                class="bi bi-chevron-down" id="navbar_i2"></i></a>
                         <ul>
                             <li><a href="#">Tours Page 1</a></li>
                             <li><a href="#">Tours Page 2</a></li>
@@ -76,7 +74,8 @@
                             <li><a href="#">Tours Page 4</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Destination</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="navbar_a3">Destination</span> <i
+                                class="bi bi-chevron-down" id="navbar_i3"></i></a>
                         <ul>
                             <li><a href="#">Destination 1</a></li>
                             <li><a href="#">Destination 2</a></li>
@@ -84,7 +83,8 @@
                             <li><a href="#">Destination 4</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>News</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="navbar_a4">News</span> <i class="bi bi-chevron-down"
+                                id="navbar_i4"></i></a>
                         <ul>
                             <li><a href="#">News 1</a></li>
                             <li><a href="#">News 2</a></li>
@@ -92,7 +92,8 @@
                             <li><a href="#">News 4</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="#"><span>Pages</span> <i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a href="#"><span id="navbar_a5">Pages</span> <i class="bi bi-chevron-down"
+                                id="navbar_i5"></i></a>
                         <ul>
                             <li><a href="#">Pages 1</a></li>
                             <li><a href="#">Pages 2</a></li>
@@ -100,7 +101,6 @@
                             <li><a href="#">Pages 4</a></li>
                         </ul>
                     </li>
-                    <li><a class="nav-link scrollto" href="#">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -114,7 +114,7 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center text-center">
         <video autoplay muted loop id="myVideo">
-            <source src="/assets/videos/pexels-taryn-elliott-3015510-1920x1080-24fps.mp4" type="video/mp4">
+            <source src="./assets/videos/pexels-taryn-elliott-3015510-1920x1080-24fps.mp4" type="video/mp4">
             Any alternate text.
         </video>
 
@@ -218,14 +218,14 @@
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-6">
                     <div class="listing-item-img">
                         <div class="">
-                            <img src="/assets/images/image1_background.PNG"
+                            <img src="./assets/images/image1_background.PNG"
                                 alt="Free Website Template by Free-Template.co">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-6">
                     <span class="sub-title">Why choose us!</span>
-                    <h3 class="title">Plan Your Trip with Amal Travels</h3>
+                    <h3 class="title">Plan Your Trip with Aamal Travels</h3>
                     <p class="text">There are many variations of passages of available but the majority have suffered
                         alteration in some form, by injected hum randomised words which don't look even slightly.</p>
                     <div class="key_points">
@@ -261,7 +261,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="cardcontainer">
                         <div class="photo">
-                            <img src="/assets/images/tourist-1.avif">
+                            <img src="./assets/images/tourist-1.avif">
                             <div class="badge"> <i class="fa fa-heart"></i> </div>
                         </div>
                         <div class="content">
@@ -271,7 +271,7 @@
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <p class="txt4">Brooklyn Christmas Lights Tour</p>
-                            <p class="txt5"><i class="fa fa-map-marker" style="color: #e8604c; margin-right: 5px;"></i>
+                            <p class="txt5"><i class="fa fa-map-marker" style="color: #071850; margin-right: 5px;"></i>
                                 Central Park
                                 West, USA</p>
                             <div class="mt-2"> <span class="text1">From <span class="text2">$39.00</span></span>
@@ -282,7 +282,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="cardcontainer">
                         <div class="photo">
-                            <img src="/assets/images/tourist-2.jpg">
+                            <img src="./assets/images/tourist-2.jpg">
                             <div class="badge"> <i class="fa fa-heart"></i> </div>
                         </div>
                         <div class="content">
@@ -292,7 +292,7 @@
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <p class="txt4">Java & Bali One Life Adventures</p>
-                            <p class="txt5"><i class="fa fa-map-marker" style="color: #e8604c; margin-right: 5px;"></i>
+                            <p class="txt5"><i class="fa fa-map-marker" style="color: #071850; margin-right: 5px;"></i>
                                 Central Park
                                 West, USA</p>
                             <div class="mt-2"> <span class="text1">From <span class="text2">$39.00</span></span>
@@ -303,7 +303,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="cardcontainer">
                         <div class="photo">
-                            <img src="/assets/images/tourist-3.jpg">
+                            <img src="./assets/images/tourist-3.jpg">
                             <div class="badge"> <i class="fa fa-heart"></i> </div>
                         </div>
                         <div class="content">
@@ -313,7 +313,7 @@
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <p class="txt4">Yucatán Peninsula & Caribbean</p>
-                            <p class="txt5"><i class="fa fa-map-marker" style="color: #e8604c; margin-right: 5px;"></i>
+                            <p class="txt5"><i class="fa fa-map-marker" style="color: #071850; margin-right: 5px;"></i>
                                 Central Park
                                 West, USA</p>
                             <div class="mt-2"> <span class="text1">From <span class="text2">$39.00</span></span>
@@ -324,7 +324,7 @@
                 <div class="col-md-6 col-lg-3">
                     <div class="cardcontainer">
                         <div class="photo">
-                            <img src="/assets/images/tour-9.jpg">
+                            <img src="./assets/images/tour-9.jpg">
                             <div class="badge"> <i class="fa fa-heart"></i> </div>
                         </div>
                         <div class="content">
@@ -334,7 +334,7 @@
                             <span class="fa fa-star"></span>
                             <span class="fa fa-star"></span>
                             <p class="txt4">Discovery Islands Kayaking Tour</p>
-                            <p class="txt5"><i class="fa fa-map-marker" style="color: #e8604c; margin-right: 5px;"></i>
+                            <p class="txt5"><i class="fa fa-map-marker" style="color: #071850; margin-right: 5px;"></i>
                                 Central Park
                                 West, USA</p>
                             <div class="mt-2"> <span class="text1">From <span class="text2">$39.00</span></span>
@@ -358,7 +358,7 @@
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-3">
                     <div class="listing-item">
                         <div class="listing-image">
-                            <img src="/assets/images/tour-9.jpg" alt="Free Website Template by Free-Template.co"
+                            <img src="./assets/images/tour-9.jpg" alt="Free Website Template by Free-Template.co"
                                 class="img-fluid">
                         </div>
                         <div class="listing-item-content">
@@ -370,7 +370,7 @@
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-6">
                     <div class="listing-item">
                         <div class="listing-image">
-                            <img src="/assets/images/tour-6.jpg" alt="Free Website Template by Free-Template.co"
+                            <img src="./assets/images/tour-6.jpg" alt="Free Website Template by Free-Template.co"
                                 class="img-fluid">
                         </div>
                         <div class="listing-item-content">
@@ -382,7 +382,7 @@
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-3">
                     <div class="listing-item">
                         <div class="listing-image">
-                            <img src="/assets/images/tour-5.jpg" alt="Free Website Template by Free-Template.co"
+                            <img src="./assets/images/tour-5.jpg" alt="Free Website Template by Free-Template.co"
                                 class="img-fluid">
                         </div>
                         <div class="listing-item-content">
@@ -394,7 +394,7 @@
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-6">
                     <div class="listing-item">
                         <div class="listing-image">
-                            <img src="/assets/images/tour-2.jpg" alt="Free Website Template by Free-Template.co"
+                            <img src="./assets/images/tour-2.jpg" alt="Free Website Template by Free-Template.co"
                                 class="img-fluid">
                         </div>
                         <div class="listing-item-content">
@@ -407,7 +407,7 @@
                 <div class="col-md-6 mb-4 mb-lg-4 col-lg-6">
                     <div class="listing-item">
                         <div class="listing-image">
-                            <img src="/assets/images/tour-11.jpg" alt="Free Website Template by Free-Template.co"
+                            <img src="./assets/images/tour-11.jpg" alt="Free Website Template by Free-Template.co"
                                 class="img-fluid">
                         </div>
                         <div class="listing-item-content">
@@ -438,7 +438,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/pool-3.jpg" class="card_image">
+                            <img src="./assets/images/pool-3.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -457,7 +457,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/design_photo_1.jpg" class="card_image">
+                            <img src="./assets/images/design_photo_1.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -476,7 +476,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/design_photo_2.jpg" class="card_image">
+                            <img src="./assets/images/design_photo_2.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -495,7 +495,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tour-11.jpg" class="card_image">
+                            <img src="./assets/images/tour-11.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -514,7 +514,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tour-5.jpg" class="card_image">
+                            <img src="./assets/images/tour-5.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -533,7 +533,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tour-9.jpg" class="card_image">
+                            <img src="./assets/images/tour-9.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -552,7 +552,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tourist-1.avif" class="card_image">
+                            <img src="./assets/images/tourist-1.avif" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -571,7 +571,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tourist-2.jpg" class="card_image">
+                            <img src="./assets/images/tourist-2.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -590,7 +590,7 @@
                 <div class="upcoming_event_card d-flex align-items-center">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tourist-3.jpg" class="card_image">
+                            <img src="./assets/images/tourist-3.jpg" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -609,7 +609,7 @@
                 <div class="upcoming_event_card d-flex align-items-center" style="border-bottom: 0px;">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tourist-7.png" class="card_image">
+                            <img src="./assets/images/tourist-7.png" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -628,7 +628,7 @@
                 <div class="upcoming_event_card d-flex align-items-center" style="border-bottom: 0px;">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/background_image.jpg.avif" class="card_image">
+                            <img src="./assets/images/background_image.jpg.avif" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -647,7 +647,7 @@
                 <div class="upcoming_event_card d-flex align-items-center" style="border-bottom: 0px;">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="/assets/images/tourist-6.png" class="card_image">
+                            <img src="./assets/images/tourist-6.png" class="card_image">
                         </div>
                         <div class="col-lg-8">
                             <span class="fa fa-star checked"></span>
@@ -750,7 +750,7 @@
                 </div>
                 <div class="col-lg-10">
                     <div class="sub-title"><span>Are you ready to travel?</span></div>
-                    <h1>Amal Travel is a World Leading Online Tour Booking Platform</h1>
+                    <h1>Aamal Travel is a World Leading Online Tour Booking Platform</h1>
                 </div>
                 <div class="col-lg-1">
 
@@ -801,7 +801,7 @@
             </div>
             <div class="row mb-5">
                 <div class="text-center">
-                    <p class="sub-title">Amal Travel Updates</p>
+                    <p class="sub-title">Aamal Travel Updates</p>
                     <h2 class="title" style="font-size: 50px;">News & articles.​</h2>
                 </div>
             </div>
@@ -809,7 +809,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="news_cards1">
                         <div class="content">
-                            <img src="/assets/images/person-1.avif">
+                            <img src="./assets/images/person-1.avif">
                             <span><i class="fa fa-user" style="margin-right: 5px;"></i>by admin</span>
                             <span><i class="fa fa-comment" style="margin-right: 5px;"></i>0 comments</span>
                             <p class="txt4">Journeys are Best Measured with Friends</p>
@@ -819,7 +819,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="news_cards2">
                         <div class="content">
-                            <img src="/assets/images/person-3.avif">
+                            <img src="./assets/images/person-3.avif">
                             <span><i class="fa fa-user" style="margin-right: 5px;"></i>by admin</span>
                             <span><i class="fa fa-comment" style="margin-right: 5px;"></i>0 comments</span>
                             <p class="txt4">A Place where start New Life with Peace</p>
@@ -829,7 +829,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="news_cards3">
                         <div class="content">
-                            <img src="/assets/images/person-2.avif">
+                            <img src="./assets/images/person-2.avif">
                             <span><i class="fa fa-user" style="margin-right: 5px;"></i>by admin</span>
                             <span><i class="fa fa-comment" style="margin-right: 5px;"></i>0 comments</span>
                             <p class="txt4">Things to see and do when in Japan</p>
@@ -842,7 +842,7 @@
     </section>
 
 
-    <section id="first_footer">
+    <!-- <section id="first_footer">
         <div class="row">
             <div class="col-lg-8">
                 <h3 class="heading">Plan your trip with us</h3>
@@ -854,7 +854,7 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="footer-10">
         <div class="container">
@@ -863,7 +863,7 @@
                     <div class="row">
                         <div class="col-md-6 mb-md-0 mb-4">
                             <div class="row">
-                                <img src="/assets/images/MicrosoftTeams-image (4).png" class="logo">
+                                <img src="./assets/images/logo.png" class="logo">
                             </div>
                             <ul class="list-unstyled">
                                 <li><a href="#" class="d-block">Welcome to our Trip and Tour Agency.</a></li>
@@ -871,11 +871,11 @@
 
                                 <div class="ba_meta">
                                     <li><a href="#" class="d-block"><i class="fa fa-phone"
-                                                style="color: #e8604c;"></i>&nbsp;&nbsp;92 666 888 0000</a></li>
+                                                style="color: #fff;"></i>&nbsp;&nbsp;92 666 888 0000</a></li>
                                     <li><a href="#" class="d-block"><i class="fa fa-envelope"
-                                                style="color: #e8604c;"></i>&nbsp;&nbsp;contact@example.com</a></li>
+                                                style="color: #fff;"></i>&nbsp;&nbsp;contact@example.com</a></li>
                                     <li><a href="#" class="d-block"><i class="fa fa-location-dot"
-                                                style="color: #e8604c;"></i>&nbsp;&nbsp;66 Broklyn Street New York,
+                                                style="color: #fff;"></i>&nbsp;&nbsp;66 Broklyn Street New York,
                                             USA</a></li>
                                 </div>
                             </ul>
@@ -906,7 +906,7 @@
                             <input type="text" class="form-control " placeholder="Enter email address">
                         </div>
                         <button type="submit" class="form-control subscribe-btn">Subscribe</button>
-                        <span class="subheading"><i class="fa fa-check" style="color: #e8604c;"></i> I agree to all
+                        <span class="subheading"><i class="fa fa-check" style="color: #fff;"></i> I agree to all
                             terms and policies </span>
                     </form>
                 </div>
@@ -923,7 +923,7 @@
             </div>
         </div>
     </footer>
-    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/theme-3.js"></script>
 </body>
 
 </html>

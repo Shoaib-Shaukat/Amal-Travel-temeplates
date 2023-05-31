@@ -6,7 +6,7 @@
 } */
 @font-face {
     font-family: "reeyMyFont";
-    src: url("/assets/fonts/Reey-Regular.otf");
+    src: url("../fonts/Reey-Regular.otf");
 }
 
 @import "compass/css3";
@@ -42,13 +42,13 @@ body {
 }
 
 .navbar a:hover {
-    color: #e8604c !important;
+    color: #106eea !important;
 }
 
 .navbar_button {
     line-height: 20px;
     letter-spacing: 1px;
-    background-color: #e8604c;
+    background-color: #106eea;
     border-radius: 0;
     font-size: 12px;
     font-weight: 500;
@@ -181,34 +181,29 @@ h6 {
   # Top Bar
   --------------------------------------------------------------*/
 #topbar {
-    background: #313041;
+    background: #0e7cb1;
     height: 40px;
     font-size: 14px;
     transition: all 0.5s;
     padding: 0;
 }
 
-#topbar .contact-info i {
-    font-style: normal;
-    color: #fff;
-}
-
 #topbar .contact-info i a,
 #topbar .contact-info i span {
     padding-left: 10px;
-    color: #9d9d9d;
+    color: #fff;
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     cursor: pointer;
 }
 
 #topbar .contact-info i {
-    color: #e8604c;
+    color: #fff;
 }
 
 #topbar .contact-info i a,
 #topbar .contact-info i span:hover {
-    color: #e8604c;
+    color: #106eea;
 }
 
 #topbar .contact-info i a {
@@ -231,7 +226,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-    color: #e8604c;
+    color: #106eea;
 }
 
 /*--------------------------------------------------------------
@@ -243,7 +238,8 @@ h6 {
     z-index: 997;
     height: 90px;
     top: 0px;
-    position: fixed;
+    /* position: fixed; */
+    position: relative;
     width: 100%;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
@@ -255,7 +251,7 @@ h6 {
 #header .logo {
     font-size: 30px;
     margin: 0;
-    padding: 0;
+    padding-top: 14px;
     line-height: 1;
     font-weight: 600;
     letter-spacing: 0.8px;
@@ -271,8 +267,8 @@ h6 {
 }
 
 #header .logo img {
-    height: 60px;
-    width: 150px;
+    height: auto;
+    width: 220px;
 }
 
 .scrolled-offset {
@@ -334,7 +330,7 @@ h6 {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: #e8604c;
+    background-color: #106eea;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -560,7 +556,7 @@ h6 {
 	background: url("/assets/images/images\ \(1\).jpg") top left;
 	background-size: cover; */
 
-    background: url("/assets/images//image_background.avif");
+    background: url("../images/image_background.avif");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 700px;
@@ -612,7 +608,7 @@ h6 {
 
 #hero .card_four .fa {
     font-size: 64px;
-    color: #e8604c;
+    color: #106eea;
     padding-bottom: 20px;
 }
 
@@ -633,7 +629,7 @@ h6 {
     transition: all .35s;
     position: relative;
     z-index: 11;
-    color: #e8604c;
+    color: #106eea;
     padding-bottom: 12px;
 }
 
@@ -1961,7 +1957,7 @@ section {
 }
 
 .btn-circle {
-    background: #faf5ee;
+    background: #c4dbff;
     width: 40px;
     height: 40px;
     text-align: center;
@@ -1978,7 +1974,7 @@ section {
     position: relative;
     display: inline-block;
     font-family: "reeyMyFont" !important;
-    color: #e8604c;
+    color: #071850;
     font-size: 20px;
     text-indent: 15px;
     letter-spacing: 0;
@@ -1999,7 +1995,7 @@ section {
 
 
 #hero .more-info i {
-    color: #e8604c;
+    color: #106eea;
     font-size: 30px;
     width: 60px;
     height: 60px;
@@ -2024,7 +2020,7 @@ section {
 
 #hero .more-info h4 {
     text-align: left;
-    color: #e8604c;
+    color: #106eea;
     line-height: 22px;
     font-size: 16px;
     font-weight: 700;
@@ -2125,7 +2121,7 @@ section {
     height: 100%;
     float: right;
     color: #fff;
-    background-color: #e8604c;
+    background-color: #106eea;
     padding: 24px 30px;
     display: inline-block;
     font-weight: 500;
@@ -2174,8 +2170,7 @@ section {
 
 .form-search-wrap .btn {
     float: right;
-    border-radius: 0 8px 8px 0;
-    background-color: #e8604c;
+    background-color: #0e7cb1;
     min-width: 100px;
 }
 
@@ -2300,7 +2295,7 @@ section {
 
 .listing-item .reeyFontTitle {
     font-size: 20px;
-    color: #e8604c !important;
+    color: #071850 !important;
     font-family: "reeyMyFont" !important;
 }
 
@@ -2349,7 +2344,7 @@ section {
     width: 80px;
     height: 30px;
     z-index: 11;
-    background: #e8604c;
+    background: #106eea;
     color: #fff;
     font-size: 11px;
 }
@@ -2421,18 +2416,18 @@ section {
 }
 
 #places-section .sub-title {
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 2px;
     font-weight: 500;
     font-family: "reeyMyFont" !important;
     text-indent: 0;
-    color: #e8604c;
+    color: #071850;
 }
 
 #places-section .text {
     font-size: 13px;
     text-transform: uppercase;
-    color: #e8604c;
+    color: #106eea;
     position: relative;
     -webkit-transition: all .35s;
     transition: all .35s;
@@ -2461,7 +2456,7 @@ section {
     bottom: 0;
     top: 0;
     z-index: 1;
-    background: #e8604c;
+    background: #106eea;
 }
 
 
@@ -2547,7 +2542,6 @@ section {
 }
 
 .form-search-wrap .btn {
-    border-radius: 30px;
     padding: 10px 30px;
 }
 
@@ -2620,7 +2614,7 @@ section {
     font-weight: 500;
     font-family: "reeyMyFont" !important;
     text-indent: 0;
-    color: #e8604c;
+    color: #071850;
 }
 
 #locations-section .key_points span {
@@ -2633,7 +2627,7 @@ section {
 #locations-section .key_points .fas {
     font-size: 10px;
     margin-right: 4px;
-    color: #e8604c;
+    color: #106eea;
 }
 
 #locations-section .list_keypoints {
@@ -2646,7 +2640,7 @@ section {
 
 #locations-section .book_btn {
     font-size: 12px;
-    background: #e8604c;
+    background: #106eea;
     color: #fff;
     font-weight: 700;
     padding: 18px 30px;
@@ -2860,7 +2854,7 @@ section {
     font-weight: 500;
     font-family: "DM Sans", sans-serif;
     text-indent: 0;
-    color: #e8604c;
+    color: #106eea;
 }
 
 #featured-section .title {
@@ -2877,7 +2871,7 @@ section {
 }
 
 #featured-section .text2 {
-    color: #e8604c;
+    color: #106eea;
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
 }
@@ -2890,7 +2884,7 @@ section {
 #featured-section .card_images:nth-child(1) {
     border: none;
     border-radius: 10px;
-    background: url("/assets/images/image_background.avif") center;
+    background: url("../images/image_background.avif");
 }
 
 #featured-section .card_content {
@@ -2924,12 +2918,12 @@ section {
 }
 
 #featured_section-most_popular .sub-title {
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 2px;
     font-weight: 500;
     font-family: "reeyMyFont" !important;
     text-indent: 0;
-    color: #e8604c;
+    color: #071850;
 }
 
 #featured_section-most_popular .title {
@@ -2946,7 +2940,7 @@ section {
 }
 
 #featured_section-most_popular .text2 {
-    color: #e8604c;
+    color: #106eea;
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
 }
@@ -2998,7 +2992,7 @@ section {
 #featured_section-most_popular a {
     position: relative;
     padding-right: 15px;
-    color: #e8604c;
+    color: #106eea;
     font-size: 14px;
     padding-top: 15px;
 }
@@ -3060,7 +3054,7 @@ section {
 #featured_section-most_popular .photos {
     width: 100px;
     height: 26px;
-    background-color: #14b0c3;
+    background-color: #0e7cb1;
     position: relative;
     top: -232px;
     margin-left: 14px;
@@ -3190,7 +3184,7 @@ section {
     transition: all 0.5s ease 0s;
     z-index: 997;
     padding: 0px;
-    background-image: url("/assets/images/background_image.jpg.avif");
+    background-image: url("../images/background_image.jpg.avif");
     height: 700px;
     width: 100%;
     background-size: cover;
@@ -3212,7 +3206,7 @@ section {
     font-weight: 500;
     font-family: "DM Sans", sans-serif;
     text-indent: 0;
-    color: #e8604c;
+    color: #106eea;
 }
 
 #featured_section-img .title {
@@ -3274,7 +3268,7 @@ section {
     font-weight: 500;
     font-family: "DM Sans", sans-serif;
     text-indent: 0;
-    color: #e8604c;
+    color: #106eea;
 }
 
 #featured-section-four-cat .title {
@@ -3312,7 +3306,7 @@ section {
 }
 
 #featured-section-four-cat .text2 {
-    color: #e8604c;
+    color: #106eea;
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
 }
@@ -3333,7 +3327,7 @@ section {
 
 #featured-section-four-cat .card_content i {
     font-size: 60px;
-    color: #e8604c;
+    color: #106eea;
     margin-bottom: 20px;
 }
 
@@ -3387,7 +3381,7 @@ section {
     font-weight: 500;
     font-family: "DM Sans", sans-serif;
     text-indent: 0;
-    color: #e8604c;
+    color: #106eea;
 }
 
 #featured-section-two-cards .title {
@@ -3471,15 +3465,15 @@ section {
 }
 
 #featured-section-two-cards .card-content:hover .fa {
-    color: #e8604c;
+    color: #106eea;
 }
 
 #featured-section-two-cards .card_images:hover .person_photo {
-    border: 11px solid #e8604c;
+    border: 11px solid #106eea;
 }
 
 #first_footer {
-    background: #e8604c;
+    background: #f5f7fa;
     transition: all 0.5s;
     height: auto;
     position: relative;
@@ -3501,7 +3495,7 @@ section {
 }
 
 #first_footer .heading_two {
-    color: #ffefef;
+    color: #2c2b26;
     font-size: 40px;
     text-align: left;
 }
@@ -3544,22 +3538,22 @@ footer {
 }
 
 .footer-10 {
-    background: #313041;
+    background: #106eea;
     padding: 0 0 4em 0;
     padding: 120px 0 120px;
     position: relative;
 }
 
 .footer-10 .logo {
-    width: 200px;
-    height: 60px;
+    width: 80%;
+    height: auto;
     margin-bottom: 14px;
     margin-left: 10px;
     padding: 0px;
 }
 
 .footer-10 ul li a {
-    color: #A9A8B6 !important;
+    color: #fff !important;
     font-size: 16px;
     font-family: "DM Sans", sans-serif;
     margin-bottom: 15px;
@@ -3578,7 +3572,7 @@ footer {
 }
 
 .footer-10 .footer-heading {
-    font-size: 18px;
+    font-size: 25px;
     color: #fff;
     margin-bottom: 30px;
 }
@@ -3639,9 +3633,8 @@ footer {
     color: white !important;
     border: none !important;
     outline: none !important;
-    color: rgba(0, 0, 0, 0.3) !important;
+    color: #000 !important;
     padding: 0 15px;
-    border-radius: 8px;
     text-align: center;
     width: 100%;
     border: none;
@@ -3649,7 +3642,7 @@ footer {
     -webkit-transition: all .35s;
     transition: all .35s;
     font-size: 16px;
-    background: rgba(0, 0, 0, .2);
+    background: #767676;
 }
 
 .footer-10 .subscribe-form .form-group input::placeholder {
@@ -3703,19 +3696,18 @@ footer {
     display: inline-block;
     font-size: 15px;
     font-weight: 500;
-    color: #a9a8b6;
+    color: #fff;
     margin-top: 20px;
 }
 
 .footer-10 .subscribe-btn {
     margin-top: 10px;
     font-size: 12px;
-    background: #e8604c;
+    background: #2c2b26;
     color: #fff;
     font-weight: 700;
     padding: 18px 30px;
     line-height: 15px;
-    border-radius: 8px;
     position: relative;
     z-index: 9;
     display: inline-block;
@@ -3790,7 +3782,7 @@ footer {
 
 #featured_section-most_popular .review_cardcontainer .txt6 {
     font-size: 14px !important;
-    color: #e8604c;
+    color: #106eea;
     text-transform: capitalize;
     font-weight: 500;
     text-transform: uppercase;
@@ -3880,7 +3872,7 @@ footer {
 #featured_section-most_popular .images_cardcontainer .centered p {
     font-family: "reeyMyFont";
     font-size: 22px;
-    color: #e8604c;
+    color: #106eea;
     font-weight: 400;
 }
 
@@ -3899,7 +3891,8 @@ footer {
 #why_choose_section span {
     font-size: 20px;
     font-family: "reeyMyFont";
-    color: #e8604c;
+    font-weight: 700;
+    color: #071850;
 }
 
 #why_choose_section h3 {
@@ -3935,7 +3928,7 @@ footer {
 
 #why_choose_section .content .fa {
     font-size: 50px;
-    color: #e8604c;
+    color: #071850;
 }
 
 #why_choose_section img {
@@ -3947,17 +3940,16 @@ footer {
 
 
 #join_us_section {
-    background: #fff;
     transition: all 0.5s;
     padding: 0px;
-    background-color: #faf5ee;
+    background-color: #becdff;
     position: relative;
 }
 
 #join_us_section span {
     font-size: 20px;
     font-family: "reeyMyFont";
-    color: #e8604c;
+    color: #071850;
 }
 
 #join_us_section h3 {
@@ -3998,13 +3990,23 @@ footer {
 
 #join_us_section .content .fa {
     font-size: 50px;
-    color: #e8604c;
+    color: #106eea;
 }
 
 #join_us_section img {
     height: 100%;
     width: 100%;
     object-fit: fill;
+    bottom: 0px;
+    right: -20px;
+}
+
+#join_us_section .img-logo {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    right: 200px;
+    bottom: 260px;
 }
 
 
@@ -4035,7 +4037,7 @@ footer {
     letter-spacing: 2px;
     margin-top: 20px;
     line-height: 20px;
-    background-color: #fc3c3c;
+    background-color: #2c2b26;
     padding: 15px 30px;
     border-radius: 4px;
 }
@@ -4065,6 +4067,7 @@ footer {
     border-radius: 4px;
     margin-left: 15px;
 }
+
 #join_us_section .fa {
     font-size: 360px;
     position: absolute;
@@ -4074,7 +4077,7 @@ footer {
 
 
 
-#join_us_section .second_icon{
+#join_us_section .second_icon {
     font-size: 280px;
     position: absolute;
     bottom: 0;
